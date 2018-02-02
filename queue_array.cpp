@@ -28,7 +28,7 @@ class queue
 	
 	void display()
 	{
-		for(int i=head; i>=tail; i++)
+		for(int i=head; i>tail; i++)
 		cout<<a[i]<<"->";
 	}
 };
